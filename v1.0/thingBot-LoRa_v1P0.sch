@@ -1,0 +1,449 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:antenna
+LIBS:antenna_3_smd
+LIBS:sma
+LIBS:sma_10v21_tgg
+LIBS:tps782
+LIBS:RFM96_95_92_BEE_BOARD-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "thingBot-LoRa"
+Date "2016-11-24"
+Rev "v1.0"
+Comp "thingTronics Innovations Pvt. Ltd."
+Comment1 "Designed By: Manohar Bompella"
+Comment2 "Verified By: Lovelesh Patel"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L XBEE P1
+U 1 1 583689AA
+P 4075 3500
+F 0 "P1" H 4125 3450 60  0000 C CNN
+F 1 "XBEE" H 3675 4200 60  0000 C CNN
+F 2 "" H 4075 3500 60  0001 C CNN
+F 3 "" H 4075 3500 60  0001 C CNN
+	1    4075 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4875 3550
+Text GLabel 3125 2950 0    29   Input ~ 0
+VOUT_XBEE
+NoConn ~ 3325 3050
+NoConn ~ 3325 3150
+Text GLabel 3125 3250 0    29   Input ~ 0
+SPI_SOMI
+Text GLabel 3125 3350 0    29   Input ~ 0
+nRESET
+NoConn ~ 3325 3450
+NoConn ~ 3325 3550
+NoConn ~ 3325 3650
+Text GLabel 3125 3750 0    29   Input ~ 0
+SPI_SIMO
+Text GLabel 5075 2950 2    29   Input ~ 0
+DIO0
+Text GLabel 5075 3050 2    29   Input ~ 0
+DIO1
+Text GLabel 5075 3150 2    29   Input ~ 0
+DIO2
+Text GLabel 5075 3250 2    29   Input ~ 0
+DIO3
+Text GLabel 5075 3850 2    29   Input ~ 0
+DIO4
+Text GLabel 5075 3350 2    29   Input ~ 0
+DIO5
+Text GLabel 5075 3450 2    29   Input ~ 0
+SPI_SCK
+Text GLabel 5075 3750 2    29   Input ~ 0
+SPI_nCS
+$Comp
+L GND #PWR01
+U 1 1 5836B838
+P 4225 5550
+F 0 "#PWR01" H 4225 5300 50  0001 C CNN
+F 1 "GND" H 4225 5400 50  0000 C CNN
+F 2 "" H 4225 5550 50  0000 C CNN
+F 3 "" H 4225 5550 50  0000 C CNN
+	1    4225 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5836EADB
+P 3225 3950
+F 0 "#PWR02" H 3225 3700 50  0001 C CNN
+F 1 "GND" H 3225 3800 50  0000 C CNN
+F 2 "" H 3225 3950 50  0000 C CNN
+F 3 "" H 3225 3950 50  0000 C CNN
+	1    3225 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMA_10V21_TGG U2
+U 1 1 5836EB8F
+P 4650 5400
+F 0 "U2" H 4700 5250 60  0000 C CNN
+F 1 "EDGE_SMA" H 4650 5600 60  0000 C CNN
+F 2 "" H 4650 5400 60  0001 C CNN
+F 3 "" H 4650 5400 60  0001 C CNN
+	1    4650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5836EBD8
+P 4975 5575
+F 0 "#PWR03" H 4975 5325 50  0001 C CNN
+F 1 "GND" H 4975 5425 50  0000 C CNN
+F 2 "" H 4975 5575 50  0000 C CNN
+F 3 "" H 4975 5575 50  0000 C CNN
+	1    4975 5575
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 6050 0    60   Input ~ 0
+ANT
+$Comp
+L TEST_1P W1
+U 1 1 5836ECB3
+P 4625 5875
+F 0 "W1" V 4625 6145 50  0000 C CNN
+F 1 "WIRE_ANT" V 4700 6100 50  0000 C CNN
+F 2 "" H 4825 5875 50  0000 C CNN
+F 3 "" H 4825 5875 50  0000 C CNN
+	1    4625 5875
+	0    1    1    0   
+$EndComp
+Text GLabel 6450 2750 0    29   Input ~ 0
+ANT
+Text GLabel 6450 2950 0    29   Input ~ 0
+DIO3
+Text GLabel 6450 3050 0    29   Input ~ 0
+DIO4
+Text GLabel 6450 3150 0    29   Input ~ 0
+RFM_VIN
+Text GLabel 6450 3250 0    29   Input ~ 0
+DIO0
+Text GLabel 6450 3350 0    29   Input ~ 0
+DIO1
+Text GLabel 6450 3450 0    29   Input ~ 0
+DIO2
+Text GLabel 7725 2850 2    29   Input ~ 0
+DIO5
+Text GLabel 7725 2950 2    29   Input ~ 0
+nRESET
+Text GLabel 7725 3050 2    29   Input ~ 0
+SPI_nCS
+Text GLabel 7725 3150 2    29   Input ~ 0
+SPI_SCK
+Text GLabel 7725 3250 2    29   Input ~ 0
+SPI_SIMO
+Text GLabel 7725 3350 2    29   Input ~ 0
+SPI_SOMI
+$Comp
+L GND #PWR04
+U 1 1 5836F35F
+P 7725 3450
+F 0 "#PWR04" H 7725 3200 50  0001 C CNN
+F 1 "GND" H 7725 3300 50  0000 C CNN
+F 2 "" H 7725 3450 50  0000 C CNN
+F 3 "" H 7725 3450 50  0000 C CNN
+	1    7725 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5836F39F
+P 8075 2750
+F 0 "#PWR05" H 8075 2500 50  0001 C CNN
+F 1 "GND" H 8075 2600 50  0000 C CNN
+F 2 "" H 8075 2750 50  0000 C CNN
+F 3 "" H 8075 2750 50  0000 C CNN
+	1    8075 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5836F4E0
+P 6175 2850
+F 0 "#PWR06" H 6175 2600 50  0001 C CNN
+F 1 "GND" H 6175 2700 50  0000 C CNN
+F 2 "" H 6175 2850 50  0000 C CNN
+F 3 "" H 6175 2850 50  0000 C CNN
+	1    6175 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L RFM96/92 U3
+U 1 1 5836F9E5
+P 7075 3150
+F 0 "U3" H 7100 2750 60  0000 C CNN
+F 1 "RFM96/92" H 7075 3700 60  0000 C CNN
+F 2 "" H 7275 3350 60  0001 C CNN
+F 3 "" H 7275 3350 60  0001 C CNN
+	1    7075 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4875 3650
+$Comp
+L TPS782 U1
+U 1 1 583703EB
+P 2125 1250
+F 0 "U1" H 2075 1250 60  0000 C CNN
+F 1 "TPS78233" H 2075 1450 60  0000 C CNN
+F 2 "" H 2125 1250 60  0001 C CNN
+F 3 "" H 2125 1250 60  0001 C CNN
+	1    2125 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 975  1150 1    29   Input ~ 0
+VOUT_XBEE
+$Comp
+L GND #PWR07
+U 1 1 58370493
+P 2050 1650
+F 0 "#PWR07" H 2050 1400 50  0001 C CNN
+F 1 "GND" H 2050 1500 50  0000 C CNN
+F 2 "" H 2050 1650 50  0000 C CNN
+F 3 "" H 2050 1650 50  0000 C CNN
+	1    2050 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3175 1200 2    29   Input ~ 0
+RFM_VIN
+Wire Wire Line
+	3125 3750 3325 3750
+Wire Wire Line
+	3125 3350 3325 3350
+Wire Wire Line
+	3125 3250 3325 3250
+Wire Wire Line
+	3125 2950 3325 2950
+Wire Wire Line
+	5075 2950 4875 2950
+Wire Wire Line
+	5075 3050 4875 3050
+Wire Wire Line
+	5075 3150 4875 3150
+Wire Wire Line
+	5075 3250 4875 3250
+Wire Wire Line
+	5075 3350 4875 3350
+Wire Wire Line
+	5075 3450 4875 3450
+Wire Wire Line
+	5075 3750 4875 3750
+Wire Wire Line
+	5075 3850 4875 3850
+Wire Wire Line
+	3225 3950 3225 3850
+Wire Wire Line
+	3225 3850 3325 3850
+Wire Wire Line
+	4225 5350 4225 5550
+Wire Wire Line
+	4225 5450 4300 5450
+Wire Wire Line
+	4225 5350 4300 5350
+Connection ~ 4225 5450
+Wire Wire Line
+	4900 5350 4975 5350
+Wire Wire Line
+	4975 5350 4975 5575
+Wire Wire Line
+	4900 5450 4975 5450
+Connection ~ 4975 5450
+Wire Wire Line
+	4600 5650 4600 6050
+Wire Wire Line
+	6450 2750 6625 2750
+Wire Wire Line
+	6175 2850 6625 2850
+Wire Wire Line
+	6450 2950 6625 2950
+Wire Wire Line
+	6450 3050 6625 3050
+Wire Wire Line
+	6450 3150 6625 3150
+Wire Wire Line
+	6450 3250 6625 3250
+Wire Wire Line
+	6450 3350 6625 3350
+Wire Wire Line
+	6450 3450 6625 3450
+Wire Wire Line
+	7575 2750 8075 2750
+Wire Wire Line
+	7575 2850 7725 2850
+Wire Wire Line
+	7575 2950 7725 2950
+Wire Wire Line
+	7575 3050 7725 3050
+Wire Wire Line
+	7575 3150 7725 3150
+Wire Wire Line
+	7575 3250 7725 3250
+Wire Wire Line
+	7575 3350 7725 3350
+Wire Wire Line
+	7575 3450 7725 3450
+Connection ~ 2050 1650
+Wire Wire Line
+	1425 1225 1425 1150
+Connection ~ 1425 1150
+Wire Wire Line
+	1625 1250 1550 1250
+Wire Wire Line
+	1550 1250 1550 1150
+Connection ~ 1550 1150
+Wire Wire Line
+	1425 1525 1425 1650
+Wire Wire Line
+	1425 1650 3050 1650
+Wire Wire Line
+	2775 1650 2775 1550
+Wire Wire Line
+	2575 1200 3175 1200
+Wire Wire Line
+	2775 1250 2775 1200
+Connection ~ 2775 1200
+Wire Wire Line
+	2575 1300 2575 1650
+Connection ~ 2575 1650
+Wire Wire Line
+	1625 1350 1625 1650
+Connection ~ 1625 1650
+$Comp
+L C C1
+U 1 1 58370F6E
+P 1425 1375
+F 0 "C1" H 1450 1475 50  0000 L CNN
+F 1 "1uF" H 1450 1275 50  0000 L CNN
+F 2 "" H 1463 1225 50  0000 C CNN
+F 3 "" H 1425 1375 50  0000 C CNN
+	1    1425 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 58371003
+P 2775 1400
+F 0 "C2" H 2800 1500 50  0000 L CNN
+F 1 "1uF" H 2800 1300 50  0000 L CNN
+F 2 "" H 2813 1250 50  0000 C CNN
+F 3 "" H 2775 1400 50  0000 C CNN
+	1    2775 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 583716A1
+P 3050 1400
+F 0 "C3" H 3075 1500 50  0000 L CNN
+F 1 "10uF" H 3075 1300 50  0000 L CNN
+F 2 "" H 3088 1250 50  0000 C CNN
+F 3 "" H 3050 1400 50  0000 C CNN
+	1    3050 1400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	800  725  3600 725 
+Wire Notes Line
+	800  1950 3600 1950
+Wire Notes Line
+	800  1950 800  725 
+Text Notes 1575 925  0    98   ~ 20
+POWER Section
+Wire Notes Line
+	3900 4975 3900 6425
+Wire Notes Line
+	3900 6425 5450 6425
+$Comp
+L ZENER D1
+U 1 1 5837274B
+P 1175 1150
+F 0 "D1" H 1175 1250 50  0000 C CNN
+F 1 "ZENER" H 1175 1050 50  0000 C CNN
+F 2 "" H 1175 1150 50  0000 C CNN
+F 3 "" H 1175 1150 50  0000 C CNN
+	1    1175 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1375 1150 1625 1150
+Text Notes 4100 5075 0    98   ~ 20
+ANTENNA Section\n
+Wire Notes Line
+	3900 5000 3900 4825
+Wire Notes Line
+	3900 4825 5450 4825
+Wire Notes Line
+	5450 4825 5450 6425
+Wire Notes Line
+	5500 2375 5500 4225
+Wire Notes Line
+	2725 2150 2725 4225
+Text Notes 3475 2350 0    98   ~ 20
+XBee Header Section
+Text Notes 3775 2675 0    59   ~ 0
+Place on Top layer\n2x10 2.00 mm TH Male
+Wire Notes Line
+	2725 4225 5500 4225
+Wire Notes Line
+	2725 2150 5500 2150
+Wire Notes Line
+	5500 2150 5500 2400
+Text Notes 6325 2375 0    98   ~ 20
+RFM 95/96/92 Module
+Wire Notes Line
+	5975 2150 5975 3825
+Wire Notes Line
+	5975 3825 8300 3825
+Wire Notes Line
+	8300 3825 8300 2150
+Wire Notes Line
+	8300 2150 5975 2150
+Wire Wire Line
+	3050 1250 3050 1200
+Connection ~ 3050 1200
+Wire Wire Line
+	3050 1650 3050 1550
+Connection ~ 2775 1650
+Wire Notes Line
+	3600 1950 3600 725 
+Wire Wire Line
+	4625 5875 4600 5875
+Connection ~ 4600 5875
+$EndSCHEMATC

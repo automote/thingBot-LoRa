@@ -1,4 +1,4 @@
-update=11/24/2016 3:15:55 PM
+update=11/24/16 19:40:13
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../kicad-libraries
+LibDir=../kicad-libraries;Libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,12 +58,8 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/bomma/Documents/myfirst_kicad/kicad_project_files/arduino_uno/RFM96_ARDUINOUNO_MCU/RFM96_95_92
-LibName31=conn_8_16
-LibName32=conn_08_16
-LibName33=antenna
-LibName34=antenna_3_smd
-LibName35=conn_8_16_1
-LibName36=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/xbee
-LibName37=Libraries/antenna
-LibName38=Libraries/antenna_3_smd
+LibName30=antenna
+LibName31=antenna_3_smd
+LibName32=library/sma
+LibName33=library/sma_10v21_tgg
+LibName34=library/tps782
