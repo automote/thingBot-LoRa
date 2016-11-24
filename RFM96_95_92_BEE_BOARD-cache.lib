@@ -97,4 +97,24 @@ X AD1/DIO1 19 800 450 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# antenna_3_smd
+#
+DEF antenna_3_smd U 0 40 Y Y 1 F N
+F0 "U" 50 350 60 H I C CNN
+F1 "antenna_3_smd" 50 500 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 180 0 1 0 N
+P 2 0 1 0 0 -300 -50 -300 N
+P 2 0 1 0 0 -250 -50 -250 N
+P 2 0 1 0 0 0 0 -350 N
+P 2 0 1 0 0 0 0 0 N
+P 2 0 1 0 0 0 50 0 N
+P 2 0 1 0 50 0 300 0 N
+P 3 0 1 0 0 -350 0 -400 -50 -400 N
+ENDDRAW
+ENDDEF
+#
 #End Library

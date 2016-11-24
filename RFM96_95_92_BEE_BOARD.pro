@@ -1,4 +1,4 @@
-update=11/24/2016 12:02:47 PM
+update=11/24/2016 3:15:55 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,5 @@ LibName33=antenna
 LibName34=antenna_3_smd
 LibName35=conn_8_16_1
 LibName36=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/xbee
+LibName37=Libraries/antenna
+LibName38=Libraries/antenna_3_smd
