@@ -1,4 +1,4 @@
-# thingBot-LoRa platform
+# thingBot-LoRa
 
 The thingBot-LoRa is based on HopeRF's RFM92/95 LoRa modules, featuring SX1272/78
 
