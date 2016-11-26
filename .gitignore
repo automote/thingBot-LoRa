@@ -19,3 +19,4 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+v1.0/thingBot-LoRa_v1P0.pro
