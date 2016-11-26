@@ -33,12 +33,8 @@ LIBS:sma_10v21_tgg
 LIBS:tps782
 LIBS:RFM96_95_92
 LIBS:xbee
-LIBS:ant
-LIBS:CP2102
-LIBS:cp2103
 LIBS:tps63051
 LIBS:inductor_L
-LIBS:thingBot-LoRa_v1P0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -401,7 +397,7 @@ F 3 "" H 7900 5550 60  0000 C CNN
 $EndComp
 Connection ~ 7900 5450
 Text Notes 6600 3950 0    99   Italic 20
-PHERIPERAL Section
+PERIPHERAL Section
 Wire Notes Line
 	6500 3750 6500 5850
 Wire Notes Line
