@@ -20,7 +20,6 @@ The thingBot-LoRa is based on HopeRF's RFM92/95 LoRa modules, featuring SX1272/7
   * [XBee Compatible](https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Dimensional.pdf)
   * Power ON Led
   * 3.3V Vin
-  * 3.3V Buck-Boost Converter (TPS63051)
   * SPI Interface
   * On-board RESET button
   
