@@ -1,4 +1,4 @@
-update=11/24/16 19:40:13
+update=11/25/2016 7:54:34 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../kicad-libraries;Libraries
+LibDir=../Libraries;../../kicad-libraries;../../kicad-libraries/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -63,3 +63,10 @@ LibName31=antenna_3_smd
 LibName32=library/sma
 LibName33=library/sma_10v21_tgg
 LibName34=library/tps782
+LibName35=RFM96_95_92
+LibName36=xbee
+LibName37=C:/Users/bomma/Documents/GitHub/nc-libs/ant
+LibName38=C:/Users/bomma/Documents/GitHub/nc-libs/CP2102
+LibName39=C:/Users/bomma/Documents/GitHub/nc-libs/cp2103
+LibName40=library/tps63051
+LibName41=library/inductor_L
