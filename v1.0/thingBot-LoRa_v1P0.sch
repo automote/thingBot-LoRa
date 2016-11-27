@@ -35,6 +35,7 @@ LIBS:RFM96_95_92
 LIBS:xbee
 LIBS:tps63051
 LIBS:inductor_L
+LIBS:thingBot-LoRa_v1P0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
