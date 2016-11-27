@@ -1,6 +1,6 @@
 # thingBot-LoRa
 
-The thingBot-LoRa is based on HopeRF's RFM92/95 LoRa modules, featuring SX1272/78
+The thingBot-LoRa is based on HopeRF's RFM92/95 LoRa modules, featuring Semtech SX1272/78
 
   * LoRa(TM) Modem
   * 157/168 dB maximum link budget

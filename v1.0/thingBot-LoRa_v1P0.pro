@@ -1,4 +1,4 @@
-update=11/26/16 13:19:43
+update=11/27/2016 7:49:49 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,13 @@ LibName33=RFM96_95_92
 LibName34=xbee
 LibName35=library/tps63051
 LibName36=library/inductor_L
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/kicad-libraries/template/thingTronics/worksheet-default.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

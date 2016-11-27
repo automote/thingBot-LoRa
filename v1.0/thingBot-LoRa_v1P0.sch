@@ -35,6 +35,7 @@ LIBS:RFM96_95_92
 LIBS:xbee
 LIBS:tps63051
 LIBS:inductor_L
+LIBS:thingBot-LoRa_v1P0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,7 +47,7 @@ Rev "v1.0"
 Comp "thingTronics Innovations Pvt. Ltd."
 Comment1 "Designed By: Manohar Bompella"
 Comment2 "Verified By: Lovelesh Patel"
-Comment3 ""
+Comment3 "Approved By: "
 Comment4 ""
 $EndDescr
 $Comp
