@@ -1,4 +1,4 @@
-update=11/27/2016 7:49:49 AM
+update=11/28/2016 1:12:23 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/kicad-libraries/template/thingTronics/worksheet-default.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../Libraries;../../kicad-libraries
+LibDir=../../kicad-libraries/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,20 +68,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=library/sma
-LibName31=library/sma_10v21_tgg
-LibName32=library/tps782
-LibName33=RFM96_95_92
-LibName34=xbee
-LibName35=library/tps63051
-LibName36=library/inductor_L
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/kicad-libraries/template/thingTronics/worksheet-default.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName30=cp2102
+LibName31=edge_sma
+LibName32=RFM_module
+LibName33=xbee
