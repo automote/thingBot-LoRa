@@ -44,7 +44,7 @@ Rev "v1.0"
 Comp "thingTronics Innovations Pvt. Ltd."
 Comment1 "Designed By: Manohar Bompella"
 Comment2 "Verified By: Lovelesh Patel"
-Comment3 ""
+Comment3 "Approved By: "
 Comment4 ""
 $EndDescr
 NoConn ~ 4725 2650
