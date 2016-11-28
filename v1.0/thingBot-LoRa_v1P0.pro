@@ -1,4 +1,4 @@
-update=11/27/2016 7:49:49 AM
+update=11/28/16 19:31:30
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../Libraries;../../kicad-libraries
+LibDir=../../kicad-library/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,16 +58,13 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=library/sma
-LibName31=library/sma_10v21_tgg
-LibName32=library/tps782
-LibName33=RFM96_95_92
-LibName34=xbee
-LibName35=library/tps63051
-LibName36=library/inductor_L
+LibName30=cp2102
+LibName31=edge_sma
+LibName32=RFM_module
+LibName33=xbee
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/kicad-libraries/template/thingTronics/worksheet-default.kicad_wks
+PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/worksheet-default.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
