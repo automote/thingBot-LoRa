@@ -36,5 +36,4 @@ The thingBot-LoRa is maintained by thingTronics Innovations.
 Main contributor:
  * Manohar Bompella @<manohar.bompella@thingtronics.com>
  * Vishnu Sherikar @<vishnu.sherikar@thingtronics.com>
- * Jagadevan V @<jagadevan.vijay@thingtronics.com>
  * Lovelesh Patel @<lovelesh.patel@thingtronics.com>
