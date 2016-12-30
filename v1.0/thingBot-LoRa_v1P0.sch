@@ -32,7 +32,6 @@ LIBS:cp2102
 LIBS:edge_sma
 LIBS:RFM_module
 LIBS:xbee
-LIBS:thingBot-LoRa_v1P0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -41,26 +40,22 @@ Sheet 1 1
 Title "thingBot-LoRa"
 Date "2016-11-24"
 Rev "v1.0"
-Comp "thingTronics Innovations Pvt. Ltd."
-Comment1 "Designed By: Manohar Bompella"
-Comment2 "Verified By: Lovelesh Patel"
-Comment3 "Approved By: "
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
 Comment4 ""
 $EndDescr
 NoConn ~ 4725 2650
-Text GLabel 2975 2050 0    29   Input ~ 0
-VOUT_XBEE
 NoConn ~ 3175 2150
 NoConn ~ 3175 2250
 Text GLabel 2975 2350 0    29   Input ~ 0
-SPI_MISO
+SPI_SOMI
 Text GLabel 2975 2450 0    29   Input ~ 0
 nRESET
-NoConn ~ 3175 2550
-NoConn ~ 3175 2650
 NoConn ~ 3175 2750
 Text GLabel 2975 2850 0    29   Input ~ 0
-SPI_MOSI
+SPI_SIMO
 Text GLabel 4925 2050 2    29   Input ~ 0
 DIO0
 Text GLabel 4925 2150 2    29   Input ~ 0
@@ -71,11 +66,11 @@ Text GLabel 4925 2350 2    29   Input ~ 0
 DIO3
 Text GLabel 4925 2950 2    29   Input ~ 0
 DIO4
-Text GLabel 4925 2450 2    29   Input ~ 0
-DIO5
 Text GLabel 4925 2550 2    29   Input ~ 0
+DIO5
+Text GLabel 2975 2550 0    29   Input ~ 0
 SPI_SCK
-Text GLabel 4925 2850 2    29   Input ~ 0
+Text GLabel 2975 2650 0    29   Input ~ 0
 SPI_nCS
 $Comp
 L GND #PWR01
@@ -110,20 +105,20 @@ F 3 "" H 4875 4475 50  0000 C CNN
 	1    4875 4475
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 4950 0    60   Input ~ 0
+Text GLabel 4275 4850 0    60   Input ~ 0
 ANT
 $Comp
 L TEST_1P W1
 U 1 1 5836ECB3
-P 4525 4775
-F 0 "W1" V 4525 5045 50  0000 C CNN
-F 1 "WIRE_ANT" V 4600 5000 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 4725 4775 50  0001 C CNN
-F 3 "" H 4725 4775 50  0000 C CNN
-F 4 ".." V 4525 4775 60  0001 C CNN "MFG_NAME"
-F 5 "..." V 4525 4775 60  0001 C CNN "MPN"
-F 6 "wire antenna" V 4525 4775 60  0001 C CNN "DES"
-	1    4525 4775
+P 4500 4700
+F 0 "W1" V 4500 4970 50  0000 C CNN
+F 1 "WIRE_ANT" V 4575 4925 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 4700 4700 50  0001 C CNN
+F 3 "" H 4700 4700 50  0000 C CNN
+F 4 "wire antenna" V 4500 4700 60  0001 C CNN "DESC"
+F 5 ".." V 4500 4700 60  0001 C CNN "MFG_NAME"
+F 6 "..." V 4500 4700 60  0001 C CNN "MPN"
+	1    4500 4700
 	0    1    1    0   
 $EndComp
 Text GLabel 7925 2550 2    29   Input ~ 0
@@ -148,10 +143,6 @@ Text GLabel 6650 2250 0    29   Input ~ 0
 SPI_nCS
 Text GLabel 6650 2150 0    29   Input ~ 0
 SPI_SCK
-Text GLabel 6650 2050 0    29   Input ~ 0
-SPI_MOSI
-Text GLabel 6650 1950 0    29   Input ~ 0
-SPI_MISO
 $Comp
 L GND #PWR04
 U 1 1 5836F35F
@@ -192,11 +183,7 @@ Wire Wire Line
 Wire Wire Line
 	4925 2350 4725 2350
 Wire Wire Line
-	4925 2450 4725 2450
-Wire Wire Line
 	4925 2550 4725 2550
-Wire Wire Line
-	4925 2850 4725 2850
 Wire Wire Line
 	4925 2950 4725 2950
 Wire Wire Line
@@ -217,8 +204,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 4350 4875 4350
 Connection ~ 4875 4350
-Wire Wire Line
-	4500 4550 4500 4950
 Wire Wire Line
 	6325 1850 6825 1850
 Wire Wire Line
@@ -281,9 +266,6 @@ Wire Notes Line
 	8500 2925 8500 1250
 Wire Notes Line
 	8500 1250 6175 1250
-Wire Wire Line
-	4525 4775 4500 4775
-Connection ~ 4500 4775
 $Comp
 L LED D1
 U 1 1 5838C372
@@ -292,9 +274,9 @@ F 0 "D1" H 7000 4850 50  0000 C CNN
 F 1 "POWER" H 6975 4625 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 7000 4750 50  0001 C CNN
 F 3 "" H 7000 4750 50  0000 C CNN
-F 4 "Kingbright" H 7000 4750 60  0001 C CNN "MFG_NAME"
-F 5 "AP2012SRCPRV" H 7000 4750 60  0001 C CNN "MPN"
-F 6 "green led for power indication" H 7000 4750 60  0001 C CNN "DESC"
+F 4 "green led for power indication" H 7000 4750 60  0001 C CNN "DESC"
+F 5 "Kingbright" H 7000 4750 60  0001 C CNN "MFG_NAME"
+F 6 "AP2012SRCPRV" H 7000 4750 60  0001 C CNN "MPN"
 	1    7000 4750
 	0    -1   -1   0   
 $EndComp
@@ -306,9 +288,9 @@ F 0 "R1" V 7080 5200 50  0000 C CNN
 F 1 "1K" V 7000 5200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6930 5200 50  0001 C CNN
 F 3 "" H 7000 5200 50  0000 C CNN
-F 4 "ROHM Semiconductor" V 7000 5200 60  0001 C CNN "MFG_NAME"
-F 5 "PMR10EZPFV2L00" V 7000 5200 60  0001 C CNN "MPN"
-F 6 "Current Sense Resistors - SMD 0805 0.002ohm 1% AEC-Q200" V 7000 5200 60  0001 C CNN "DESC"
+F 4 "Current Sense Resistors - SMD 0805 0.002ohm 1% AEC-Q200" V 7000 5200 60  0001 C CNN "DESC"
+F 5 "ROHM Semiconductor" V 7000 5200 60  0001 C CNN "MFG_NAME"
+F 6 "PMR10EZPFV2L00" V 7000 5200 60  0001 C CNN "MPN"
 	1    7000 5200
 	1    0    0    -1  
 $EndComp
@@ -327,9 +309,9 @@ F 0 "SW1" H 7800 5260 50  0000 C CNN
 F 1 "RESET" H 7650 5070 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P" H 7650 5150 50  0001 C CNN
 F 3 "" H 7650 5150 50  0000 C CNN
-F 4 "SUNROM" H 7650 5150 60  0001 C CNN "MFG_NAME"
-F 5 "4982" H 7650 5150 60  0001 C CNN "MPN"
-F 6 "SPST switch for RESET" H 7650 5150 60  0001 C CNN "DES"
+F 4 "SPST switch for RESET" H 7650 5150 60  0001 C CNN "DESC"
+F 5 "SUNROM" H 7650 5150 60  0001 C CNN "MFG_NAME"
+F 6 "4982" H 7650 5150 60  0001 C CNN "MPN"
 	1    7650 5150
 	0    -1   -1   0   
 $EndComp
@@ -341,9 +323,9 @@ F 0 "C1" H 7925 5200 50  0000 L CNN
 F 1 "15nF" H 7925 5000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7938 4950 50  0001 C CNN
 F 3 "" H 7900 5100 50  0000 C CNN
-F 4 "Yageo" H 7900 5100 60  0001 C CNN "MFG_NAME"
-F 5 "AC0805KRX7R9BB103" H 7900 5100 60  0001 C CNN "MPN"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10K pF 16V 10%" H 7900 5100 60  0001 C CNN "DESC"
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10K pF 16V 10%" H 7900 5100 60  0001 C CNN "DESC"
+F 5 "Yageo" H 7900 5100 60  0001 C CNN "MFG_NAME"
+F 6 "AC0805KRX7R9BB103" H 7900 5100 60  0001 C CNN "MPN"
 	1    7900 5100
 	1    0    0    -1  
 $EndComp
@@ -381,15 +363,13 @@ PERIPHERAL Section
 Wire Notes Line
 	6500 3750 6500 5850
 Wire Notes Line
-	8800 3750 8800 5850
+	6500 3750 8950 3750
 Wire Notes Line
-	8800 3750 6500 3750
-Wire Notes Line
-	8800 5850 6500 5850
+	6500 5850 8950 5850
 Wire Wire Line
 	6900 4450 7150 4450
 Text GLabel 6900 4450 0    29   Input ~ 0
-VOUT_XBEE
+VIN_XBEE
 Text GLabel 7150 4450 2    29   Input ~ 0
 RFM_VIN
 $Comp
@@ -430,11 +410,11 @@ U 1 1 583BE8AA
 P 4550 4300
 F 0 "U1" H 4600 4150 60  0000 C CNN
 F 1 "EDGE_SMA" H 4550 4500 60  0000 C CNN
-F 2 "sma:Sma_Edge_6" H 4550 4300 60  0001 C CNN
+F 2 "sma:EDGE_SMA_5" H 4550 4300 60  0001 C CNN
 F 3 "" H 4550 4300 60  0001 C CNN
-F 4 "molex" H 4550 4300 60  0001 C CNN "MFG_NAME"
-F 5 "0732511150" H 4550 4300 60  0001 C CNN "MPN"
-F 6 "SMA RF Connector" H 4550 4300 60  0001 C CNN "DESC"
+F 4 "SMA RF Connector" H 4550 4300 60  0001 C CNN "DESC"
+F 5 "molex" H 4550 4300 60  0001 C CNN "MFG_NAME"
+F 6 "0732511150" H 4550 4300 60  0001 C CNN "MPN"
 	1    4550 4300
 	1    0    0    -1  
 $EndComp
@@ -446,24 +426,10 @@ F 0 "U2" H 7325 1850 60  0000 C CNN
 F 1 "RFM92/95" H 7275 2800 60  0000 C CNN
 F 2 "Temp:RFM92_95_96_98" H 7475 2450 60  0001 C CNN
 F 3 "" H 7475 2450 60  0001 C CNN
-F 4 "....." H 7275 2250 60  0001 C CNN "MFG_NAME"
-F 5 "..." H 7275 2250 60  0001 C CNN "MPN"
-F 6 "Low Power Long Range Transceiver Module" H 7275 2250 60  0001 C CNN "DESC"
+F 4 "Low Power Long Range Transceiver Module" H 7275 2250 60  0001 C CNN "DESC"
+F 5 "....." H 7275 2250 60  0001 C CNN "MFG_NAME"
+F 6 "..." H 7275 2250 60  0001 C CNN "MPN"
 	1    7275 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L XBEE P1
-U 1 1 583BEC95
-P 3925 2600
-F 0 "P1" H 3975 2550 60  0000 C CNN
-F 1 "XBEE" H 3525 3300 60  0000 C CNN
-F 2 "Xbee:Xbee_mod" H 3925 2600 60  0001 C CNN
-F 3 "" H 3925 2600 60  0001 C CNN
-F 4 "DIGI" H 3925 2600 60  0001 C CNN "MFG_NAME"
-F 5 "..." H 3925 2600 60  0001 C CNN "MPN"
-F 6 "Xbee male Plug" H 3925 2600 60  0001 C CNN "DESC"
-	1    3925 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -480,4 +446,68 @@ F 6 "Current Sense Resistors - SMD 0805 0.002ohm 1% AEC-Q200" V 7900 4550 60  00
 	1    7900 4550
 	1    0    0    -1  
 $EndComp
+$Comp
+L XBEE_MODULE U3
+U 1 1 5843EEBB
+P 3925 2600
+F 0 "U3" H 3975 2550 60  0000 C CNN
+F 1 "XBEE_MODULE" H 3525 3300 60  0000 C CNN
+F 2 "Xbee:Xbee_mod" H 3925 2600 60  0001 C CNN
+F 3 "" H 3925 2600 60  0001 C CNN
+F 4 "XBee male plug" H 3925 2600 60  0001 C CNN "DESC"
+F 5 "DIGI" H 3925 2600 60  0001 C CNN "MFG_NAME"
+F 6 "....." H 3925 2600 60  0001 C CNN "MPN"
+	1    3925 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 58569A7D
+P 8650 5100
+F 0 "C2" H 8675 5200 50  0000 L CNN
+F 1 "0.1uF" H 8675 5000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8688 4950 50  0001 C CNN
+F 3 "" H 8650 5100 50  0000 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10K pF 16V 10%" H 8650 5100 60  0001 C CNN "DESC"
+F 5 "Yageo" H 8650 5100 60  0001 C CNN "MFG_NAME"
+F 6 "AC0805KRX7R9BB103" H 8650 5100 60  0001 C CNN "MPN"
+	1    8650 5100
+	1    0    0    -1  
+$EndComp
+Text GLabel 8650 4650 1    29   Input ~ 0
+RFM_VIN
+$Comp
+L GND #PWR09
+U 1 1 5856A5A5
+P 8650 5525
+F 0 "#PWR09" H 8650 5575 30  0001 C CNN
+F 1 "GND" H 8650 5400 30  0001 C CNN
+F 2 "GND" H 8650 5375 60  0000 C CNN
+F 3 "" H 8650 5525 60  0000 C CNN
+	1    8650 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5250 8650 5525
+Wire Wire Line
+	8650 4650 8650 4950
+Wire Notes Line
+	8950 5850 8950 3750
+Text GLabel 6650 1950 0    29   Input ~ 0
+SPI_SOMI
+Text GLabel 6650 2050 0    29   Input ~ 0
+SPI_SIMO
+Wire Wire Line
+	2975 2550 3175 2550
+Wire Wire Line
+	2975 2650 3175 2650
+NoConn ~ 4725 2850
+NoConn ~ 4725 2450
+Text GLabel 2975 2050 0    29   Input ~ 0
+VIN_XBEE
+Wire Wire Line
+	4500 4550 4500 4850
+Wire Wire Line
+	4500 4850 4275 4850
+Connection ~ 4500 4700
 $EndSCHEMATC
