@@ -28,10 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:cp2102
-LIBS:edge_sma
-LIBS:RFM_module
-LIBS:xbee
+LIBS:thingBot-LoRa_v1P0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -40,9 +37,9 @@ Sheet 1 1
 Title "thingBot-LoRa"
 Date "2016-11-24"
 Rev "v1.0"
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "thingTronics Innovations Pvt. Ltd."
+Comment1 "Approved By: Lovelesh Patel"
+Comment2 "Designed By: Manohar Bompella"
 Comment3 ""
 Comment4 ""
 $EndDescr
