@@ -1077,7 +1077,7 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module "Fab Details table:Fab Details table" (layer F.Cu) (tedit 58663D18) (tstamp 5866513C)
+  (module "Fab Details table:Fab Details table" (layer F.Cu) (tedit 586A5B1E) (tstamp 5866513C)
     (at 127.11 93.44)
     (fp_text reference REF** (at 7 -4) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1227,7 +1227,7 @@
     (fp_text user Yes (at 22 40) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user White (at 22.6 42.15) (layer Dwgs.User)
+    (fp_text user BLUE (at 22.6 42.15) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
   )
