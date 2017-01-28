@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
 
   (general
-    (links 65)
+    (links 60)
     (no_connects 0)
     (area 170.939999 97.939999 195.420001 130.970001)
     (thickness 1.6)
@@ -207,7 +207,7 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 5866304C) (tstamp 58666DC6)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CAF91) (tstamp 58666DC6)
     (at 186.03 105.9)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -215,8 +215,6 @@
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 -0.67) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
   )
 
   (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 5866325D) (tstamp 586631E9)
@@ -399,7 +397,7 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 5866304C) (tstamp 58663072)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CB01F) (tstamp 58663072)
     (at 189.33 106.67)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -407,11 +405,11 @@
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 -0.67) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
+    (pad 1 thru_hole circle (at 1 -0.67) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
       (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 5866304C) (tstamp 5866306E)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CAC70) (tstamp 5866306E)
     (at 188.33 106.67)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -419,11 +417,9 @@
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 -0.67) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 5866304C) (tstamp 5866306A)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CB015) (tstamp 5866306A)
     (at 187.33 106.67)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -431,11 +427,11 @@
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 -0.67) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
+    (pad 1 thru_hole circle (at 1 -0.67) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
       (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 5866304C) (tstamp 58663066)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CACAF) (tstamp 58663066)
     (at 186.33 106.67)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -443,23 +439,21 @@
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 -0.67) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 5866304C) (tstamp 58663062)
-    (at 185.33 106.67)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CB00C) (tstamp 58663062)
+    (at 186.05 106.71)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 -0.67) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
+    (pad 1 thru_hole circle (at 0.28 -0.67) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
       (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 58652746) (tstamp 58663024)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CAFC2) (tstamp 58663024)
     (at 189.03 108.13)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -467,11 +461,11 @@
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
+    (pad 1 thru_hole circle (at 0.3 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
       (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 58652746) (tstamp 58663020)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CAC8A) (tstamp 58663020)
     (at 188.03 108.13)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -479,11 +473,9 @@
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 58652746) (tstamp 5866301C)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CAFD9) (tstamp 5866301C)
     (at 187.03 108.13)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -491,11 +483,11 @@
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
+    (pad 1 thru_hole circle (at 0.3 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
       (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 58652746) (tstamp 58663018)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CAC99) (tstamp 58663018)
     (at 186.03 108.13)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -503,23 +495,21 @@
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 58652746) (tstamp 58663014)
-    (at 185.03 108.13)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CAFE4) (tstamp 58663014)
+    (at 185.54 108.12)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
+    (pad 1 thru_hole circle (at -0.21 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
       (net 2 GND) (zone_connect 2))
   )
 
-  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 58652746) (tstamp 58662DAC)
+  (module VIA'S:VIA_0.5mm (layer F.Cu) (tedit 588CB032) (tstamp 58662DAC)
     (at 184.03 108.13)
     (fp_text reference REF** (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -527,7 +517,7 @@
     (fp_text value VIA_0.5mm (at 0.05 -1.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
+    (pad 1 thru_hole circle (at -0.7 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
       (net 2 GND) (zone_connect 2))
   )
 
@@ -621,13 +611,13 @@
     )
   )
 
-  (module Xbee:Xbee_mod locked (layer F.Cu) (tedit 586A0431) (tstamp 584D7580)
+  (module Xbee:Xbee_mod locked (layer F.Cu) (tedit 588CADD2) (tstamp 584D7580)
     (at 172.18 105.23)
     (path /5843EEBB)
     (fp_text reference U3 (at 11 2) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value XBEE_MODULE (at 10.82 0.17) (layer B.SilkS)
+    (fp_text value XBEE_MODULE (at 11 18.67) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.19 -0.7) (end -1.19 25.71) (layer F.SilkS) (width 0.15))
@@ -1017,10 +1007,10 @@
       (xy 1.27 -2.413)) (layer F.SilkS) (width 0.01))
   )
 
-  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5863DD33) (tstamp 58454AFB)
+  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 588CAD15) (tstamp 58454AFB)
     (at 183.2 103.7)
     (path /5836ECB3)
-    (fp_text reference W1 (at 1.57 2) (layer F.SilkS)
+    (fp_text reference W1 (at 2.46 0.63) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WIRE_ANT (at 4.8 0.22) (layer F.Fab)
@@ -1249,25 +1239,25 @@
   (gr_text DIO0 (at 192.04 105.23) (layer F.SilkS) (tstamp 5869FC9D)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text VIN (at 174.4 105.23) (layer F.SilkS) (tstamp 5869FC95)
+  (gr_text VIN (at 174.19 105.25) (layer F.SilkS) (tstamp 5869FC95)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text GND (at 174.26 123.23) (layer F.SilkS) (tstamp 5869FC8F)
+  (gr_text GND (at 174.51 123.27) (layer F.SilkS) (tstamp 5869FC8F)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text SIMO (at 174.23 121.23) (layer F.SilkS) (tstamp 5869FC87)
+  (gr_text SIMO (at 174.49 121.18) (layer F.SilkS) (tstamp 5869FC87)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text "nCS\n" (at 174.21 117.23) (layer F.SilkS) (tstamp 5869FC81)
+  (gr_text "nCS\n" (at 174.46 117.24) (layer F.SilkS) (tstamp 5869FC81)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text SCK (at 174.23 115.23) (layer F.SilkS) (tstamp 5869FC7D)
+  (gr_text SCK (at 174.47 115.26) (layer F.SilkS) (tstamp 5869FC7D)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text nRST (at 174.23 113.23) (layer F.SilkS) (tstamp 5869FC72)
+  (gr_text nRST (at 174.47 113.22) (layer F.SilkS) (tstamp 5869FC72)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text SOMI (at 174.29 111.23) (layer F.SilkS)
+  (gr_text SOMI (at 174.47 111.23) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
   (gr_text "32.94 x 24.38 mm" (at 151.83 97.47) (layer Dwgs.User)
