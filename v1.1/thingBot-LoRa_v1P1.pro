@@ -1,38 +1,9 @@
-update=01/28/17 20:23:44
+update=03/08/17 14:18:56
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[pcbnew]
-version=1
-PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/My Design templates/Pcb_Schematic_Worksheet.kicad_wks
-LastNetListRead=
-PadDrill=0.3
-PadDrillOvalY=0.3
-PadSizeH=0.5
-PadSizeV=0.5
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.09999999999999999
-ModuleOutlineThickness=0.15
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/My Design templates/Pcb_Schematic_Worksheet.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=../../kicad-library
@@ -69,5 +40,34 @@ LibName29=valves
 LibName30=library/xbee
 LibName31=library/edge_sma
 LibName32=library/RFM_module
+[pcbnew]
+version=1
+PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/Pcb_Layout_Worksheet.kicad_wks
+LastNetListRead=
+PadDrill=0.3
+PadDrillOvalY=0.3
+PadSizeH=0.5
+PadSizeV=0.5
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/My Design templates/Pcb_Schematic_Worksheet.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
